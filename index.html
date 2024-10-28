@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28eb326b3b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Science<br>Student</p>
+            <br>
+            <h1>Hi, I'm <span>Divya</span></h1>
+        </div>
+    </div>
+    </div>
+    <!------------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                <img src="images/abt me.jpg">
+               </div>
+               <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p>I am a results-driven professional with a solid foundation in Computer Science through my Bachelor's from
+                    Vellore Institute of Technology- AP. My career and educational journey have equipped me with a deep passion
+                    for Artificial intelligence, and I am now seeking a dynamic career opportunity where I can leverage my
+                    knowledge and drive for continuous growth in IT Software Possess exceptional communication and
+                    interpersonal skills with a proven ability to work independently and as part of a team.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>FrontEnd Developer</span><br>Designing Websites</li>
+                            <li><span>Web Development</span><br>Designing App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Prodigy Infotech</span><br>Intern as Software Developer</li>
+                            <li><span>JPMorgan Chase&Co</span><br>Virtual Internship in JPMorgan</li>
+                            <li><span>Bharat</span><br>Intern in Machine Learning</li>
+                            <li><span>Oasis Infobyte</span><br>Intern as Web Developer</li>
+                            <li><span>Sync Interns</span><br>Intern as Web Developer</li> 
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 Batch</span><br>B.Tech from Vellore Institute of Technology</li>
+                            <li><span>Sri Chaitanya Junior College</span><br>SSC| Examination Score - 94.2%</li>
+                            <li><span>Sri Chaitanya</span><br>SSC| Examination Score - 9.8 GPA</li>
+                        </ul>
+                    </div>
+               </div>  
+            </div>
+        </div>
+    </div>
+<!-----------------WORK------------------------->
+<div id="work">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div>
+                <i class="fa-solid fa-hands-asl-interpreting"></i>
+                <h2>Sign Language Using ML</h2>
+                <p>In our sign language identification project, we leveraged machine learning algorithms to develop a robust system capable of recognizing and interpreting diverse sign gestures.This innovative application not only bridges communication gaps for the hearing impaired but also showcases the potential of machine learning in facilitating inclusive technology.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-volume-high"></i>
+                <h2>Volume Range change Using Hand Gestures</h2>
+                <p>In our innovative project, we harnessed the power of artificial intelligence to dynamically alter audio volume based on hand gestures. Through advanced computer vision and machine learning techniques, we enabled users to control volume ranges seamlessly by intuitively gesturing with their hands.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>Identification of Paddy plants Diseases Using DL</h2>
+                <p>Our project focused on leveraging Deep Learning (DL) techniques for the identification of diseases in paddy plants. By employing convolutional neural networks (CNNs) on a comprehensive dataset, we achieved accurate and efficient classification of various paddy plant diseases. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>E-Learning Website</h2>
+                <p>An e-learning website using HTML, where knowledge meets innovation, providing an interactive and user-friendly platform for online education. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>Music App</h2>
+                <p>I took the creative leap to design and build a music app, seamlessly blending technology and melody to deliver a harmonious experience for music enthusiasts worldwide. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>Quiz App</h2>
+                <p> Based on Web Development project I successfully crafted a dynamic quiz app, combining creativity and functionality, to deliver an engaging and interactive experience for users to test their knowledge in an exciting way. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>Contact Management System</h2>
+                <p>As a Software Developer I successfully engineered a robust contact management system, streamlining communication and enhancing efficiency. This system ensures seamless organization and accessibility of contacts for improved collaboration and connectivity.  </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>Sudoko</h2>
+                <p>I recently delved into the world of programming puzzles and successfully crafted a Sudoku solver using Python, enhancing my Software Developing skills. The project involved implementing efficient algorithms to generate and solve Sudoku puzzles, providing an engaging challenge for users. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>Number Guessing Game</h2>
+                <p>I successfully crafted a captivating number guessing game as part of my software development project, combining creativity and logic to deliver an engaging user experience. This project showcases my proficiency in programming and my commitment to creating enjoyable applications. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>To Do App</h2>
+                <p>I successfully crafted a dynamic To-Do app as my web development project, utilizing a combination of HTML, CSS, and JavaScript. This project not only enhanced my coding skills but also resulted in a functional and intuitive application for efficient task management. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <h2>House Prize Prediction</h2>
+                <p>For my machine learning project, I undertook the challenge of creating a house price prediction model. Leveraging various regression algorithms and data preprocessing techniques, I developed a robust system capable of analyzing key features to forecast accurate property values. </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!---------------------Contact------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> divyasaisreeguduri@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 8639541178</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/divya-sai-sree-g-8195a0241/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href=https://github.com/divyaisdivya><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/RESUME FINAL.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                   <input type="text" name="Name" placeholder="Your Name" required> 
+                   <input type="email" name="Email" placeholder="Your Email" required>
+                   <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 Divya. Made with <i class="fa-brands fa-html5"></i> HTML</p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlY3VdBIKm1bfMDhAKSAcm7b6RX5Qd4oC2tkO935SRBtQjM4-0b188aFP2HTWwIHLu/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
